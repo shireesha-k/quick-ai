@@ -1,0 +1,8 @@
+const BlogTitles=()=>{
+    return(
+        <div>
+            <h1>BlogTitles</h1>
+        </div>
+    )
+}
+export default BlogTitle;
