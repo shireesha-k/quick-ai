@@ -5,4 +5,4 @@ const BlogTitles=()=>{
         </div>
     )
 }
-export default BlogTitle;
+export default BlogTitles;
