@@ -31,7 +31,7 @@ const BlogTitles=()=>{
           {blogCategories.map((item,index)=>(
             <span onClick={()=>setSelectedCategory(item)} 
             className={`text-xs px-4 py-1 border rounded-full cursor-pointer 
-              ${selectedCategory===item ? 'bg-blue-50 text-blue-700':
+              ${selectedCategory===item ? 'bg-purple-50 text-blue-700':
               'text-gray-500 border-gray-300'}`}
              key={index}>{item}</span>
           ))}
